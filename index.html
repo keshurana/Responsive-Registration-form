@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h2>Registration Form</h2>
+        </div>
+        <div class="formcontainer">
+            <form action="">
+                <div>
+                    <label for="">UserName</label>
+                    <span>*</span>
+                    <input type="text" placeholder="choose username">
+                </div>
+                <div>
+                    <label for="">Password</label>
+                    <span>*</span>
+                    <input type="password" placeholder="enter password">
+                </div>
+                <div>
+                    <label for="">Confirm Password</label>
+                    <span>*</span>
+                    <input type="password" placeholder="enter confirm password">
+                </div>
+                <div>
+                    <label for="">Age</label>
+                    <span>*</span>
+                    <input type="number" placeholder="enter your age">
+                </div>
+                <div id="gender">
+                    <label for="">Gender</label>
+                    <input type="radio" name="gender" id="male">Male
+                    <input type="radio" name="gender" id="female">Female
+                    <input type="radio" name="gender" id="others">Others
+                </div>
+            </form>
+        </div>
+        <button type="submit">submit</button>
+    </div>
+</body>
+</html>
